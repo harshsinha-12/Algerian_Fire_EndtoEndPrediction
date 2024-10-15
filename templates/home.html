@@ -76,12 +76,12 @@
         <!-- Main input for receiving query to our ML-->
         <form action="{{url_for('predict_datapoint')}}" method="post">
             <input type="text" name="Temperature" placeholder="Temperature" required="required" /><br>
-            <input type="text" name="RH" placeholder="RH" required="required" /><br>
-            <input type="text" name="Ws" placeholder="Ws" required="required" /><br>
-            <input type="text" name="Rain" placeholder="Rain" required="required" /><br>
-            <input type="text" name="FFMC" placeholder="FFMC" required="required" /><br>
-            <input type="text" name="DMC" placeholder="DMC" required="required" /><br>
-            <input type="text" name="ISI" placeholder="ISI" required="required" /><br>
+            <input type="text" name="RH" placeholder="Relative Humidity (RH)" required="required" /><br>
+            <input type="text" name="Ws" placeholder="Wind Speed (Ws)" required="required" /><br>
+            <input type="text" name="Rain" placeholder="Rainfall" required="required" /><br>
+            <input type="text" name="FFMC" placeholder="Fine Fuel Moisture Code (FFMC)" required="required" /><br>
+            <input type="text" name="DMC" placeholder="Duff Moisture Code (DMC)" required="required" /><br>
+            <input type="text" name="ISI" placeholder="Initial Spread Index (ISI)" required="required" /><br>
             <input type="text" name="Classes" placeholder="Classes (0 or 1)" required="required" /><br>
             <input type="text" name="Region" placeholder="Region (0 or 1)" required="required" /><br>
 
