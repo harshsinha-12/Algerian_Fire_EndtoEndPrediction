@@ -1,6 +1,15 @@
 Project Overview
 
-This project involves deploying a machine learning model to predict fire weather indices in Algeria. Utilizing a Ridge regression model trained on the Algerian forest fire dataset, the web application enables users to input weather and land conditions and receive fire weather index predictions.
+This project involves deploying machine learning models to predict fire weather indices in Algeria. It includes two versions: a Flask application and a Streamlit application, each utilizing a Ridge regression model trained on the Algerian forest fire dataset. Users can input weather and land conditions to receive fire weather index predictions.
+
+Live Application Links
+
+	•	Flask App: https://algerian-fire-endtoendprediction-1.onrender.com
+	•	Streamlit App: https://algerianfire.streamlit.app/
+
+	•	Flask App: Uses app.py for its operation.
+	•	Streamlit App: Operates through main.py.
+
 
 Directory Structure
 
@@ -19,7 +28,7 @@ Directory Structure
 
 Flask Web Application
 
-The Flask application provides a simple interface for entering weather and vegetation parameters, which are processed by a pre-trained Ridge regression model to predict the fire weather index.
+The Flask application provides a simple interface for entering weather and vegetation parameters, processed by a pre-trained Ridge regression model to predict the fire weather index.
 
 Installation and Execution
 
@@ -65,5 +74,3 @@ Dependencies
 	•	Numpy
 	•	Scikit-Learn
 	•	Pickle
-
-This updated README includes corrected information about the endpoint for accessing the prediction feature, ensuring clarity and ease of use for anyone deploying or using the application.
