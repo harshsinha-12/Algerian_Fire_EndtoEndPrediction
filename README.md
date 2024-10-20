@@ -67,6 +67,8 @@ The application returns the predicted fire weather index based on the input cond
 
 ![Algerian Fire Prediction Screenshot](https://github.com/harshsinha-12/Algerian_Fire_EndtoEndPrediction/blob/main/Pred.png)
 
+<img src="https://github.com/harshsinha-12/Algerian_Fire_EndtoEndPrediction/blob/main/Pred.png" alt="Algerian Fire Prediction Screenshot" width="300" height="200"/>
+
 Additional Notes
 
 	•	Verify the correct placement of data files and model pickle files in their respective directories.
