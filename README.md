@@ -62,9 +62,10 @@ Outputs
 
 The application returns the predicted fire weather index based on the input conditions, displayed on the webpage.
 
-![Project Screenshot](/Screenshot_2024-10-20_at_11.36.37_PM.png)
+![Algerian Fire Prediction Homepage](https://github.com/harshsinha-12/Algerian_Fire_EndtoEndPrediction/blob/main/Homepage.png)
 
-![Project Screenshot](/Screenshot 2024-10-20 at 11.38.28 PM.png)
+
+![Algerian Fire Prediction Screenshot](https://github.com/harshsinha-12/Algerian_Fire_EndtoEndPrediction/blob/main/Pred.png)
 
 Additional Notes
 
